@@ -1,6 +1,6 @@
 ---------- Serverweite Einstellungen ----------
--- Settings in this section apply to the whole server and are the default settings
--- for any virtual hosts
+-- Alle Einstellungen die hier gemacht werden betreffen den ganzen Server
+-- und sind für alle Virtuellen Hosts gültig
 
 admins = { "admin@domain.tld", "admin2@domain.tld" }
 
@@ -70,7 +70,7 @@ modules_enabled = {
 		"legacyauth";		-- Legacy authentication. Only used by some old clients and bots.
 		--"groups";		-- Shared roster support
 
-		
+
 	-- Testing Area (Mods die erst getestet und dann dauerhaft hinzugefügt werden
 		"stanza_counter";	-- Soll eingehende und ausgehnde Verbindungen zählen siehe /counter/
 		"server_status";	-- zeigt die Anzahl der Verbindungen + den Status der Dienste an siehe /server-info/
