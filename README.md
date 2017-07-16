@@ -1,1 +1,0 @@
-# yawls.de-XMPP
