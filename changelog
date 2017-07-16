@@ -1,0 +1,35 @@
+---------- Serverweite Einstellungen ----------
+--###############################################
+--# Erstellt am 11.07.2017 01:10 Uhr            #
+--# Version 1.0.1                               #
+--#---------------------------------------------#
+--# Changelog                                   #
+--#----------                                   #
+--# V1.0.3                                      #
+--# - mod_smacks in testing aufgenommen         #
+--# - mod_csi in testing aufgenommen            #
+--# - mod_cloud_notify in testing aufgenommen   #
+--# - mod_filter_chatstates in testing          #
+--#   aufgenommen                               #
+--# - mod_throttle_presence in testing          #
+--#   aufgenommen                               #
+--# - Proxy in testing aktviert                 #
+--# - leagacyauth testweise aktiv               #
+--#----------                                   #
+--# V1.0.2                                      #
+--# - Max Upload auf 50MB (cut bei 10MB?!       #
+--# - mam_muc in TestingArea aufgenommen        #
+--# - register_redirect in TestingArea          #
+--#   aufgenommen und aktviert                  #
+--#----------                                   #
+--# V1.0.1                                      #
+--# - Max Upload auf 10MB eingestellt           #
+--# - Uploads werden nach 30 Tagen gelöscht     #
+--# - Mod register wieder aktiviert             #
+--# - Mod mam_muc deaktviert da erst mit 0.10   #
+--#   stabil                                    #
+--#----------                                   #
+--# V1.0.0                                      #
+--# -                                           # 
+--###############################################
+
