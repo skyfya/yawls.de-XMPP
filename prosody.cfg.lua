@@ -1,4 +1,5 @@
 ---------- Serverweite Einstellungen ----------
+
 -- Alle Einstellungen die hier gemacht werden betreffen den ganzen Server
 -- und sind für alle Virtuellen Hosts gültig
 
@@ -51,15 +52,16 @@ modules_enabled = {
 		"admin_adhoc"; 	-- Allows administration via an XMPP client that supports ad-hoc commands
 		"admin_web"; 	-- WebInterface über Port 5281
 		--"admin_telnet"; -- Opens telnet console interface on localhost port 5582
-				
-	-- HTTP modules
+
+
+	-- HTTP Module (Webserver etc.)
 		"bosh";		-- Enable BOSH clients, aka "Jabber over HTTP"
 		"http_files";	-- Server static files from a directory over HTTP
 		"http";		-- der HTTP(S)-Server von Prosody, von dem z.B. http_upload abhängt
 		"http_upload";	-- ermöglicht den Upload von Dateien
 
 
-	-- Other specific functionality
+	-- Mods die für andere Module oder funktionen geladen werden müssen
 		"lastlog";		-- Aktiv damit "list_inactive" auch filtern kann
 		"posix";		-- POSIX functionality, sends server to background, enables syslog, etc.
 		"watchregistrations";	--Sendet Nachrichten bei der Registrierung neuer Benutzer an konfigurierte Adressen
@@ -69,12 +71,12 @@ modules_enabled = {
 		--"motd";		-- Send a message to users when they log in
 		"legacyauth";		-- Legacy authentication. Only used by some old clients and bots.
 		--"groups";		-- Shared roster support
+		"serverinfo";		-- mode_Serverinfo von ThomasLeister (TrashServer.net)
 
 
 	-- Testing Area (Mods die erst getestet und dann dauerhaft hinzugefügt werden
 		"stanza_counter";	-- Soll eingehende und ausgehnde Verbindungen zählen siehe /counter/
 		"server_status";	-- zeigt die Anzahl der Verbindungen + den Status der Dienste an siehe /server-info/
-		"serverinfo";		-- mode_Serverinfo von ThomasLeister (TrashServer.net)
 		--"mam_muc";		-- Ermöglicht es beim "rejoin" die letzten x nachrichten vom Server zu bekommen, deaktviert da erst mit 0.10 stabil
 		"register_redirect";	-- Sollte die Registrierung über einen Client erfolgen bekommt man den Hinweis auf die Register-Seite zu gehen
 		"smacks";		-- XEP-0198 Stream Management bei kurzzeitigen verbinungsabbrüchen
