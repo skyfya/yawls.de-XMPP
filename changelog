@@ -1,11 +1,13 @@
----------- Serverweite Einstellungen ----------
+---------- Serverweite Einstellungen ------------
 --###############################################
 --# Erstellt am 11.07.2017 01:10 Uhr            #
 --# Version 1.0.1                               #
---# Geändert am 16.07.2017 21:35 Uhr		#
---# Version 1.0.3				#
 --#---------------------------------------------#
 --# Changelog                                   #
+--#----------                                   #
+--# V1.0.4                                      #
+--# - mod_server-info von trashserver.net       #
+--#   fest mit in die Module aufgenommen        #
 --#----------                                   #
 --# V1.0.3                                      #
 --# - mod_smacks in testing aufgenommen         #
