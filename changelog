@@ -1,11 +1,12 @@
 ---------- Serverweite Einstellungen ------------
 --###############################################
---# Erstellt am 11.07.2017 01:10 Uhr            #
---# Version 1.0.1                               #
+--# Erstellt am 20.07.2017 19:00 Uhr            #
+--# Version 1.0.4                               #
 --#---------------------------------------------#
 --# Changelog                                   #
 --#----------                                   #
 --# V1.0.4                                      #
+--# - Prosody update auf 0.9.12			#
 --# - mod_server-info von trashserver.net       #
 --#   fest mit in die Module aufgenommen        #
 --#----------                                   #
